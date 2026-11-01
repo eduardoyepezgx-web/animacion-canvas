@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sistema Solar - Animación en Canvas</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <h1>Movimiento de los planetas alrededor del Sol</h1>
+  <canvas id="lienzo" width="800" height="500">
+    Tu navegador no soporta la etiqueta canvas.
+  </canvas>
+  <div class="controles">
+    <button id="btnPausa">Pausar</button>
+    <label>Velocidad:
+      <input type="range" id="velocidad" min="0.2" max="3" step="0.1" value="1">
+    </label>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
